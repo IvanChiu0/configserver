@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /configserver01
+  port: 9030
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/IvanChiu0/ConfigServerTest01.git
+          username: IvanChiu0
+          password: asd199111242
